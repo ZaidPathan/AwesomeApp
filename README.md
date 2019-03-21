@@ -1,1 +1,1 @@
-# AwesomeApp
+# TheAwesomeApp
