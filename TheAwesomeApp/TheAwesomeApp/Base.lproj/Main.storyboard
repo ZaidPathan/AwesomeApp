@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Hpe-Ju-kEE">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="via-i6-vu7">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SUz-rg-jvd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tabBarController id="Hpe-Ju-kEE" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="jvh-vg-FcX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="CxH-bX-ksE" kind="relationship" relationship="viewControllers" id="0Am-9s-0CT"/>
+                        <segue destination="6Ya-oz-Kft" kind="relationship" relationship="viewControllers" id="Cqe-2g-Smu"/>
+                        <segue destination="LbQ-LG-K5P" kind="relationship" relationship="viewControllers" id="ELg-CS-4fZ"/>
+                        <segue destination="ed3-9a-6Ce" kind="relationship" relationship="viewControllers" id="puo-hJ-uCt"/>
+                    </connections>
+                </tabBarController>
+            </objects>
+            <point key="canvasLocation" x="-730" y="-280"/>
+        </scene>
+        <!--ChatViewController-->
+        <scene sceneID="5u9-L9-dUQ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ChatModule" bundleIdentifier="com.ZaidPathan.ChatModule" referencedIdentifier="ChatViewController" id="CxH-bX-ksE" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="dxt-9b-P8o"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FLs-K1-dDY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1214" y="223"/>
+        </scene>
+        <!--PlayViewController-->
+        <scene sceneID="NhN-Zk-drK">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PlayModule" bundleIdentifier="com.ZaidPathan.PlayModule" referencedIdentifier="PlayViewController" id="6Ya-oz-Kft" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="52k-Ir-rJH"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TBg-2I-W3B" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-898" y="223"/>
+        </scene>
+        <!--PayViewController-->
+        <scene sceneID="OCL-Lh-dPQ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PayModule" bundleIdentifier="com.ZaidPathan.PayModule" referencedIdentifier="PayViewController" id="LbQ-LG-K5P" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="v10-cF-OPp"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wz6-YW-PXN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-562" y="223"/>
+        </scene>
+        <!--ShopViewController-->
+        <scene sceneID="Pdi-vd-vPu">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ShopModule" bundleIdentifier="com.ZaidPathan.ShopModule" referencedIdentifier="ShopViewController" id="ed3-9a-6Ce" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="BSF-e7-k3T"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="00A-28-A8i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-222" y="223"/>
+        </scene>
+    </scenes>
+</document>

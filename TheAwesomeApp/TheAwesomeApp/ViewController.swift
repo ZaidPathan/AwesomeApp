@@ -1,0 +1,20 @@
+//
+//  ViewController.swift
+//  TheAwesomeApp
+//
+//  Created by Zaid Pathan on 23/03/19.
+//  Copyright © 2019 Zaid Pathan. All rights reserved.
+//
+
+import UIKit
+
+class ViewController: UITabBarController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+    }
+
+
+}
+
